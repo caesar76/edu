@@ -1,8 +1,15 @@
 package com;
 
+import java.util.Scanner;
+
 public class Exam01 {
 	public static void main(String[] args){
-		int n = 100;
+		
+		System.out.println("Input Number >>>");
+		
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
 		boolean isPrime;
 		for(int i = 2 ; i <= n ; i++){
 			isPrime = true;
