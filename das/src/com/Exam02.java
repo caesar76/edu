@@ -15,5 +15,7 @@ public class Exam02 {
 		
 		System.out.println("String = '"+inputString+"'");
 		System.out.println("Number = '"+inputNum+"'");
+		
+		sc.close();
 	}
 }
