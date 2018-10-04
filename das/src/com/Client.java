@@ -6,5 +6,8 @@ public class Client {
 		
 		Shape circle = shapeFac.getShape("circle");
 		circle.draw();
+		
+		Shape rectangle = shapeFac.getShape("rectangle");
+		rectangle.draw();
 	}
 }
